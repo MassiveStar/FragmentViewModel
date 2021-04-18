@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/blankFragment1">
+
+    <fragment
+        android:id="@+id/blankFragment1"
+        android:name="com.example.fragmentviewmodel.BlankFragment1"
+        android:label="BlankFragment1" >
+        <action
+            android:id="@+id/action_blankFragment1_to_blankFragment2"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.fragmentviewmodel.BlankFragment2"
+        android:label="BlankFragment2" />
+</navigation>
